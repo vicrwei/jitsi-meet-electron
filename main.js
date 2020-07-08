@@ -277,6 +277,8 @@ app.on('activate', () => {
     }
 });
 
+/*
+Zertifikat ausblendend
 app.on('certificate-error',
     // eslint-disable-next-line max-params
     (event, webContents, url, error, certificate, callback) => {
@@ -288,6 +290,7 @@ app.on('certificate-error',
         }
     }
 );
+*/
 
 app.on('ready', createJitsiMeetWindow);
 
